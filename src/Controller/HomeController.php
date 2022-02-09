@@ -2,9 +2,10 @@
 
   namespace App\Controller;
 
+  use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
   use Symfony\Component\HttpFoundation\Response;
 
-  class HomeController
+  class HomeController extends AbstractController
   {
     public function mainpage (): Response
     {
