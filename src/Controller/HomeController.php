@@ -11,13 +11,7 @@
     {
 
       return new Response (
-        '<html lang="en">
-          <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
-            <title>Socially Radical Web Design</title>
-          </head>
-          <body>
+        '
             <header class="container-fluid">
               <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -82,8 +76,7 @@
                 <p id="copyright">&#169; - 2022 - Socially Radical Web Design</p>
               </div>
             </footer>
-          </body>
-        </html>'
+          '
       );
     }
   }
