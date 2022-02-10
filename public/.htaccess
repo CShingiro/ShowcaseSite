@@ -12,8 +12,8 @@ DirectoryIndex index.php
 <Virtual Host *:80>
 	ServerName sociallyradicalwebdesign.com
 	ServerAlias www.sociallyradicalwebdesign.com
-	
-	DocumentRoot /home/socially/public_html
+
+	DocumentRoot /home/socially/public_html/public
 	DirectoryIndex /index.php
 	<Directory>
 		# Options +FollowSymlinks
