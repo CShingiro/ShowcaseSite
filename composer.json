@@ -97,7 +97,9 @@
             "allow-contrib": false,
             "require": "6.0.*"
         }
-        "public": "public_html",
+        "public": {
+          "public_html",
+        }
     },
     "require-dev": {
         "symfony/debug-bundle": "6.0.*",
